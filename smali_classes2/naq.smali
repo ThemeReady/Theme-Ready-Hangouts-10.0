@@ -1,0 +1,474 @@
+.class public final Lnaq;
+.super Lnog;
+.source "SourceFile"
+
+
+# annotations
+.annotation system Ldalvik/annotation/Signature;
+    value = {
+        "Lnog",
+        "<",
+        "Lnaq;",
+        ">;"
+    }
+.end annotation
+
+
+# instance fields
+.field public a:Ljava/lang/Integer;
+
+.field public b:Ljava/lang/Integer;
+
+.field public c:Ljava/lang/Integer;
+
+.field public d:Ljava/lang/Integer;
+
+.field public e:Ljava/lang/Integer;
+
+.field public f:Ljava/lang/Integer;
+
+
+# direct methods
+.method public constructor <init>()V
+    .locals 0
+
+    .prologue
+    .line 4954
+    invoke-direct {p0}, Lnog;-><init>()V
+
+    .line 4955
+    invoke-direct {p0}, Lnaq;->d()Lnaq;
+
+    .line 4956
+    return-void
+.end method
+
+.method private b(Lnod;)Lnaq;
+    .locals 1
+
+    .prologue
+    .line 5029
+    :cond_0
+    :goto_0
+    invoke-virtual {p1}, Lnod;->a()I
+
+    move-result v0
+
+    .line 5030
+    sparse-switch v0, :sswitch_data_0
+
+    .line 5034
+    invoke-super {p0, p1, v0}, Lnog;->a(Lnod;I)Z
+
+    move-result v0
+
+    if-nez v0, :cond_0
+
+    .line 5035
+    :sswitch_0
+    return-object p0
+
+    .line 5040
+    :sswitch_1
+    invoke-virtual {p1}, Lnod;->f()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lnaq;->a:Ljava/lang/Integer;
+
+    goto :goto_0
+
+    .line 5044
+    :sswitch_2
+    invoke-virtual {p1}, Lnod;->f()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lnaq;->b:Ljava/lang/Integer;
+
+    goto :goto_0
+
+    .line 5048
+    :sswitch_3
+    invoke-virtual {p1}, Lnod;->f()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lnaq;->c:Ljava/lang/Integer;
+
+    goto :goto_0
+
+    .line 5052
+    :sswitch_4
+    invoke-virtual {p1}, Lnod;->f()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lnaq;->d:Ljava/lang/Integer;
+
+    goto :goto_0
+
+    .line 5056
+    :sswitch_5
+    invoke-virtual {p1}, Lnod;->f()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lnaq;->e:Ljava/lang/Integer;
+
+    goto :goto_0
+
+    .line 5060
+    :sswitch_6
+    invoke-virtual {p1}, Lnod;->f()I
+
+    move-result v0
+
+    invoke-static {v0}, Ljava/lang/Integer;->valueOf(I)Ljava/lang/Integer;
+
+    move-result-object v0
+
+    iput-object v0, p0, Lnaq;->f:Ljava/lang/Integer;
+
+    goto :goto_0
+
+    .line 5030
+    :sswitch_data_0
+    .sparse-switch
+        0x0 -> :sswitch_0
+        0x8 -> :sswitch_1
+        0x10 -> :sswitch_2
+        0x18 -> :sswitch_3
+        0x20 -> :sswitch_4
+        0x28 -> :sswitch_5
+        0x30 -> :sswitch_6
+    .end sparse-switch
+.end method
+
+.method private d()Lnaq;
+    .locals 1
+
+    .prologue
+    const/4 v0, 0x0
+
+    .line 4959
+    iput-object v0, p0, Lnaq;->a:Ljava/lang/Integer;
+
+    .line 4960
+    iput-object v0, p0, Lnaq;->b:Ljava/lang/Integer;
+
+    .line 4961
+    iput-object v0, p0, Lnaq;->c:Ljava/lang/Integer;
+
+    .line 4962
+    iput-object v0, p0, Lnaq;->d:Ljava/lang/Integer;
+
+    .line 4963
+    iput-object v0, p0, Lnaq;->e:Ljava/lang/Integer;
+
+    .line 4964
+    iput-object v0, p0, Lnaq;->f:Ljava/lang/Integer;
+
+    .line 4965
+    iput-object v0, p0, Lnaq;->unknownFieldData:Lnoj;
+
+    .line 4966
+    const/4 v0, -0x1
+
+    iput v0, p0, Lnaq;->cachedSize:I
+
+    .line 4967
+    return-object p0
+.end method
+
+
+# virtual methods
+.method public synthetic a(Lnod;)Lnoo;
+    .locals 1
+
+    .prologue
+    .line 4917
+    invoke-direct {p0, p1}, Lnaq;->b(Lnod;)Lnaq;
+
+    move-result-object v0
+
+    return-object v0
+.end method
+
+.method public a(Lnoe;)V
+    .locals 2
+
+    .prologue
+    .line 4973
+    iget-object v0, p0, Lnaq;->a:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_0
+
+    .line 4974
+    const/4 v0, 0x1
+
+    iget-object v1, p0, Lnaq;->a:Ljava/lang/Integer;
+
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+
+    move-result v1
+
+    invoke-virtual {p1, v0, v1}, Lnoe;->a(II)V
+
+    .line 4976
+    :cond_0
+    iget-object v0, p0, Lnaq;->b:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_1
+
+    .line 4977
+    const/4 v0, 0x2
+
+    iget-object v1, p0, Lnaq;->b:Ljava/lang/Integer;
+
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+
+    move-result v1
+
+    invoke-virtual {p1, v0, v1}, Lnoe;->a(II)V
+
+    .line 4979
+    :cond_1
+    iget-object v0, p0, Lnaq;->c:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_2
+
+    .line 4980
+    const/4 v0, 0x3
+
+    iget-object v1, p0, Lnaq;->c:Ljava/lang/Integer;
+
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+
+    move-result v1
+
+    invoke-virtual {p1, v0, v1}, Lnoe;->a(II)V
+
+    .line 4982
+    :cond_2
+    iget-object v0, p0, Lnaq;->d:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_3
+
+    .line 4983
+    const/4 v0, 0x4
+
+    iget-object v1, p0, Lnaq;->d:Ljava/lang/Integer;
+
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+
+    move-result v1
+
+    invoke-virtual {p1, v0, v1}, Lnoe;->a(II)V
+
+    .line 4985
+    :cond_3
+    iget-object v0, p0, Lnaq;->e:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_4
+
+    .line 4986
+    const/4 v0, 0x5
+
+    iget-object v1, p0, Lnaq;->e:Ljava/lang/Integer;
+
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+
+    move-result v1
+
+    invoke-virtual {p1, v0, v1}, Lnoe;->a(II)V
+
+    .line 4988
+    :cond_4
+    iget-object v0, p0, Lnaq;->f:Ljava/lang/Integer;
+
+    if-eqz v0, :cond_5
+
+    .line 4989
+    const/4 v0, 0x6
+
+    iget-object v1, p0, Lnaq;->f:Ljava/lang/Integer;
+
+    invoke-virtual {v1}, Ljava/lang/Integer;->intValue()I
+
+    move-result v1
+
+    invoke-virtual {p1, v0, v1}, Lnoe;->a(II)V
+
+    .line 4991
+    :cond_5
+    invoke-super {p0, p1}, Lnog;->a(Lnoe;)V
+
+    .line 4992
+    return-void
+.end method
+
+.method protected b()I
+    .locals 3
+
+    .prologue
+    .line 4996
+    invoke-super {p0}, Lnog;->b()I
+
+    move-result v0
+
+    .line 4997
+    iget-object v1, p0, Lnaq;->a:Ljava/lang/Integer;
+
+    if-eqz v1, :cond_0
+
+    .line 4998
+    const/4 v1, 0x1
+
+    iget-object v2, p0, Lnaq;->a:Ljava/lang/Integer;
+
+    .line 4999
+    invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
+
+    move-result v2
+
+    invoke-static {v1, v2}, Lnoe;->f(II)I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    .line 5001
+    :cond_0
+    iget-object v1, p0, Lnaq;->b:Ljava/lang/Integer;
+
+    if-eqz v1, :cond_1
+
+    .line 5002
+    const/4 v1, 0x2
+
+    iget-object v2, p0, Lnaq;->b:Ljava/lang/Integer;
+
+    .line 5003
+    invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
+
+    move-result v2
+
+    invoke-static {v1, v2}, Lnoe;->f(II)I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    .line 5005
+    :cond_1
+    iget-object v1, p0, Lnaq;->c:Ljava/lang/Integer;
+
+    if-eqz v1, :cond_2
+
+    .line 5006
+    const/4 v1, 0x3
+
+    iget-object v2, p0, Lnaq;->c:Ljava/lang/Integer;
+
+    .line 5007
+    invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
+
+    move-result v2
+
+    invoke-static {v1, v2}, Lnoe;->f(II)I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    .line 5009
+    :cond_2
+    iget-object v1, p0, Lnaq;->d:Ljava/lang/Integer;
+
+    if-eqz v1, :cond_3
+
+    .line 5010
+    const/4 v1, 0x4
+
+    iget-object v2, p0, Lnaq;->d:Ljava/lang/Integer;
+
+    .line 5011
+    invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
+
+    move-result v2
+
+    invoke-static {v1, v2}, Lnoe;->f(II)I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    .line 5013
+    :cond_3
+    iget-object v1, p0, Lnaq;->e:Ljava/lang/Integer;
+
+    if-eqz v1, :cond_4
+
+    .line 5014
+    const/4 v1, 0x5
+
+    iget-object v2, p0, Lnaq;->e:Ljava/lang/Integer;
+
+    .line 5015
+    invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
+
+    move-result v2
+
+    invoke-static {v1, v2}, Lnoe;->f(II)I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    .line 5017
+    :cond_4
+    iget-object v1, p0, Lnaq;->f:Ljava/lang/Integer;
+
+    if-eqz v1, :cond_5
+
+    .line 5018
+    const/4 v1, 0x6
+
+    iget-object v2, p0, Lnaq;->f:Ljava/lang/Integer;
+
+    .line 5019
+    invoke-virtual {v2}, Ljava/lang/Integer;->intValue()I
+
+    move-result v2
+
+    invoke-static {v1, v2}, Lnoe;->f(II)I
+
+    move-result v1
+
+    add-int/2addr v0, v1
+
+    .line 5021
+    :cond_5
+    return v0
+.end method
