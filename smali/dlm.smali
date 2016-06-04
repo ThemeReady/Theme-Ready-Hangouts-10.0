@@ -1149,7 +1149,7 @@
 
 .field public static final kX:I = 0x7f04009a
 
-.field public static final kY:I = 0x7f0e00be
+.field public static final kY:I = 0x7f0e007a # @color/default_bg
 
 .field public static final kZ:I = 0x7f0b008a
 

@@ -843,7 +843,7 @@
     .line 316
     iget-object v1, p0, Lfrg;->h:Lcom/google/android/apps/hangouts/views/FixedAspectRatioImageView;
 
-    const v3, 0x106000c
+    const v3, 0x7f0e004e # @color/solid_black
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -857,7 +857,7 @@
     :cond_b
     iget-object v1, p0, Lfrg;->h:Lcom/google/android/apps/hangouts/views/FixedAspectRatioImageView;
 
-    const v3, 0x106000b
+    const v3, 0x7f0e0207 # @color/background_floating_material_light
 
     invoke-virtual {v0, v3}, Landroid/content/res/Resources;->getColor(I)I
 

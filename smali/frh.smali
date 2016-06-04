@@ -225,7 +225,7 @@
 
     iget-object v1, p0, Lfrh;->d:Landroid/content/res/Resources;
 
-    const v2, 0x106000c
+    const v2, 0x7f0e004e # @color/solid_black
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 
@@ -252,7 +252,7 @@
 
     iget-object v1, p0, Lfrh;->d:Landroid/content/res/Resources;
 
-    const v2, 0x106000b
+    const v2, 0x7f0e0207 # @color/background_floating_material_light
 
     invoke-virtual {v1, v2}, Landroid/content/res/Resources;->getColor(I)I
 

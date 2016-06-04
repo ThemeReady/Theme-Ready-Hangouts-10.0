@@ -2173,7 +2173,7 @@
 
 .field public static final tt:I = 0x7f0e0092
 
-.field public static final tu:I = 0x7f0e010e
+.field public static final tu:I = 0x7f0e00a2 # @color/incoming_conversation_bubble_background
 
 .field public static final tv:I = 0x7f0d02a0
 

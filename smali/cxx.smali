@@ -200,7 +200,7 @@
 
     move-result-object v4
 
-    sget v5, Ldlm;->nH:I
+    sget v5, Ldlm;->nI:I # @color/button_default_text
 
     invoke-virtual {v4, v5}, Landroid/content/res/Resources;->getColor(I)I
 
