@@ -567,7 +567,7 @@
 
 .field public static final es:I = 0x7f0e00a6
 
-.field public static final et:I = 0x7f0e0097
+.field public static final et:I = 0x7f0e009d # @color/bg_item_selected
 
 .field public static final eu:I = 0x7f0e0298
 
@@ -575,7 +575,7 @@
 
 .field public static final ew:I = 0x7f0e0299
 
-.field public static final ex:I = 0x7f0e023e
+.field public static final ex:I = 0x7f0e0211 # @color/button_material_light
 
 .field public static final ey:I = 0x7f0e02b7
 

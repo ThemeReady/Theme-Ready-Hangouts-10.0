@@ -1337,7 +1337,7 @@
 
     move-result-object v0
 
-    sget v2, Ldlm;->ea:I
+    sget v2, Ldlm;->et:I # @color/bg_item_selected
 
     invoke-virtual {v0, v2}, Landroid/content/res/Resources;->getColor(I)I
 
